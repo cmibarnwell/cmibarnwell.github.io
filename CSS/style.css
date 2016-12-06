@@ -97,6 +97,10 @@ ____________________________________ */
 .noDec h3 a:hover{
 	color: #fff;
 }
+.noDec p{
+	margin-left: 20%;
+	margin-right: 20%;
+}
 .awards{
 	text-align:center;
 	display: block;
