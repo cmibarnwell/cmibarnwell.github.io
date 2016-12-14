@@ -163,6 +163,9 @@ ____________________________________ */
 	text-align:center;
 	display: block;
 }
+
+/* Projects
+____________________________________ */
 .projects{
 	padding-top: 70px;
 	text-align:center;
@@ -172,56 +175,6 @@ ____________________________________ */
 	transform: perspective(800px);
 	transition: all 0.8s ease;
 }
-
-.projects h2{
-	transform-style: preserve-3d;
-	transform: perspective(800px);
-	transition: all 0.8s ease;
-}
-.projects h3{
-	transform-style: preserve-3d;
-	transform: perspective(800px);
-	transition: all 0.8s ease;
-}
-.projects p{
-	transform-style: preserve-3d;
-	transform: perspective(800px);
-	transition: all 0.8s ease;
-}
-.projects img{
-	transform-style: preserve-3d;
-	transform: perspective(800px);
-	transition: all 0.8s ease;
-}
-.projects figcaption{
-	transform-style: preserve-3d;
-	transform: perspective(800px);
-	transition: all 0.8s ease;
-}
-h2.hidden{
-	opacity: 0;
-	transform: translate3d(0, 0, 400px) rotateY(-40deg);
-}
-p.hidden{
-	opacity: 0;
-	transform: translate3d(0, 0, 400px) rotateY(40deg);
-}
-h3.hidden{
-	opacity: 0;
-	transform: translate3d(0, 0, 400px) rotateY(40deg);
-}
-img.hidden{
-	opacity: 0;
-	transform: translate3d(0, 0, 400px) rotateY(-40deg);
-}
-figcaption.hidden{
-	opacity: 0;
-	transform: translate3d(0, 0, 400px) rotateY(40deg);
-}
-
-
-
-
 .noDec h3 a{
 	text-decoration: none;
 	color: #fff;
@@ -240,11 +193,15 @@ figcaption.hidden{
 	text-align:center;
 	display: block;
 }
+
+/* Skills
+____________________________________ */
 .skills{
 	padding-top: 70px;
 	text-align:center;
 	display: block;
 }
+
 .employment{
 	padding-top: 70px;
 	text-align:center;
