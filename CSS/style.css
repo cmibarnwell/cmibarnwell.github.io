@@ -91,7 +91,7 @@ header.main_nav{
 	text-decoration: none;
 	border: 3px solid #fff;
 	padding: 7px 10px 0 10px;
-	margin: 0;
+	margin: 0 auto;
 	font-family: 'Cinzel', sans-serif;
 }
 
@@ -166,8 +166,62 @@ ____________________________________ */
 .projects{
 	padding-top: 70px;
 	text-align:center;
-	display: block;	
+	display: block;
+
+	transform-style: preserve-3d;
+	transform: perspective(800px);
+	transition: all 0.8s ease;
 }
+
+.projects h2{
+	transform-style: preserve-3d;
+	transform: perspective(800px);
+	transition: all 0.8s ease;
+}
+.projects h3{
+	transform-style: preserve-3d;
+	transform: perspective(800px);
+	transition: all 0.8s ease;
+}
+.projects p{
+	transform-style: preserve-3d;
+	transform: perspective(800px);
+	transition: all 0.8s ease;
+}
+.projects img{
+	transform-style: preserve-3d;
+	transform: perspective(800px);
+	transition: all 0.8s ease;
+}
+.projects figcaption{
+	transform-style: preserve-3d;
+	transform: perspective(800px);
+	transition: all 0.8s ease;
+}
+h2.hidden{
+	opacity: 0;
+	transform: translate3d(0, 0, 400px) rotateY(-40deg);
+}
+p.hidden{
+	opacity: 0;
+	transform: translate3d(0, 0, 400px) rotateY(40deg);
+}
+h3.hidden{
+	opacity: 0;
+	transform: translate3d(0, 0, 400px) rotateY(40deg);
+}
+img.hidden{
+	opacity: 0;
+	transform: translate3d(0, 0, 400px) rotateY(-40deg);
+}
+figcaption.hidden{
+	opacity: 0;
+	transform: translate3d(0, 0, 400px) rotateY(40deg);
+}
+
+
+
+
 .noDec h3 a{
 	text-decoration: none;
 	color: #fff;
