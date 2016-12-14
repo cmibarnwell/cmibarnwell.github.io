@@ -3,17 +3,8 @@
 	transform: perspective(800px);
 	transition: all 0.8s ease;
 }
-.projects h3{
-	transform-style: preserve-3d;
-	transform: perspective(800px);
-	transition: all 0.8s ease;
-}
+
 .projects p{
-	transform-style: preserve-3d;
-	transform: perspective(800px);
-	transition: all 0.8s ease;
-}
-.projects img{
 	transform-style: preserve-3d;
 	transform: perspective(800px);
 	transition: all 0.8s ease;
@@ -23,6 +14,15 @@
 	transform: perspective(800px);
 	transition: all 0.8s ease;
 }
+.projects h3{
+	position: relative;
+	z-index: 1;
+}
+.projects img{
+	position: relative;
+	z-index: 1;
+}
+
 h2.hiddenPro{
 	opacity: 0;
 	transform: translate3d(0, 0, 400px) rotateY(-40deg);

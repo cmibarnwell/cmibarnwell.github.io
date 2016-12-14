@@ -171,15 +171,12 @@ ____________________________________ */
 	text-align:center;
 	display: block;
 
-	transform-style: preserve-3d;
-	transform: perspective(800px);
-	transition: all 0.8s ease;
 }
 .noDec h3 a{
 	text-decoration: none;
 	color: #fff;
 	position: relative;
-	z-index: 1;
+	z-index: 2;
 }
 .noDec h3 a:hover{
 	  color: #A2482E;
