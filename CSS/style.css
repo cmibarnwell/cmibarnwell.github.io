@@ -27,11 +27,39 @@ hr {
 }
 
 body {
-    background-color: #686766 ;
+    background-color: #686766;
 }
 
-html * {
+h3 {
 	  color: #fff;
+}
+
+h2 {
+	  color: #fff;
+}
+
+h1 {
+	  color: #fff;
+}
+
+p {
+	  color: #fff;
+}
+
+table{
+	color: #fff;
+}
+
+figcaption{
+	color: #fff;
+}
+
+ul{
+	color: #fff;
+}
+
+ol{
+	color: #fff;
 }
 
 
@@ -66,6 +94,13 @@ header.main_nav{
 	margin: 0;
 	font-family: 'Cinzel', sans-serif;
 }
+
+@media screen and (max-width: 780px) {
+   .logo a{
+	font-size: 2em;
+	}
+}
+
 .logo a:hover{
 	background-color: #fff;
 	color: #A2482E; 
@@ -164,6 +199,13 @@ img.size {
     width: 40%; 
 }
 
+@media screen and (max-width: 780px) {
+   img.size {
+    height: auto; 
+    width: 75%; 
+	}
+}
+
 .tableWidth{
 	overflow: auto;
 	overflow-y: hidden;
@@ -199,7 +241,9 @@ ul.social li{
 	padding: 0 2%;
 }
 ul.social li a{
-	color: #666;
+	color: #fff;
+	z-index: 1;
+	position: relative;
 }
 ul.social li.facebook a:hover{color: rgb(59,89,152);}
 ul.social li.github a:hover{color: rgb(0,0,0);}

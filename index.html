@@ -27,6 +27,12 @@
   <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
 
+  <!-- Scripts
+  _________________________________________________ -->
+  <script src = js/scrollScript.js></script>
+  <script src ="jquery.min.js"></script>
+  <script src ="application.js"></script>
+
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="CSS/normalize.css">
@@ -45,7 +51,7 @@
 		<li class="barEl"><a class="navAddress" href="#home">Home</a></li>
 		<li class="barEl"><a href="#skills" class="navAddress">Skills</a></li>
 		<li class="barEl"><a href="#projects" class="navAddress">Projects</a></li>
-		<li class="barEl"><a href="#courses" class="navAddress">Courses</a></li>
+		<li class="barEl"><a href="javascript:window.scroll(0, 300);" class="navAddress">Courses</a></li>
 		<li class="barEl"><a href="#employment" class="navAddress">Employment Experience</a></li>
 		<li class="barEl"><a href="#awards" class="navAddress">Awards</a></li>
 		<li class="barEl"><a href="#activities" class="navAddress">Activities</a></li>
@@ -179,7 +185,7 @@
 	<p>(Fall 2016)</p>
 	<figure><img class="size" src="Images/impulseMeter.jpg"><figcaption class="comp"><i>Our Impulse Meter</i></figcaption></figure>
 	<p>Collaborative project that involved planning using Mechanical Physics and Mathematics to find the simplest way to measure impulse (Change in momentum). Since we measured our
-	spring constant before construction, this is performed by using a slow motion camera and observing the distance of the compression of the spring when hit by an object. Next the time until max compression must also be observed. This allows for measuring of impulse with minimal knowledge of variables, including the neglection of mass. We checked our results conservation of energy and kinematics to check the theoretical change in momentum.
+	spring constant before construction, this is performed by using a slow motion camera and observing the distance of the compression of the spring when hit by an object. Next the time until max compression must also be observed. This allows for measuring of impulse with minimal knowledge of variables, including the neglection of mass. We checked our results using conservation of energy and kinematics to compare the theoretical change in momentum.
 	<br/> <br/>
 	Equations used: F = kx, J = F&Delta;t </p><br/>
   </div>
@@ -262,7 +268,7 @@
 				</tr>
 				<tr>
 					<td>Physics for Scientists and Engineers I</td>
-					<td class="comp">~</td>
+					<td class="comp">A</td>
 				</tr>
 
 				<tr>
@@ -380,7 +386,6 @@
 			<h3>RowdyHacks Hackathon</h3>
 			<p>(Fall 2016 -Present)</p>
 			<p>Member of the planning committee for UTSA's RowdyHacks hackathon.</abbr></p>
-      <hr/>
 		</div>
 	</div>
 </div>
@@ -390,6 +395,7 @@
 <footer>
 	<div class = "container" id="contact">
 		<div class="row twelve columns">
+		<hr/>
 			<p class="copyright">Contact/External Websites</p>
 			<img class = "copyright" src="Images/portraitNew.png"/><br/>
 			<ul class="social">
