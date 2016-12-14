@@ -1,19 +1,19 @@
-.courses h2{
+.employment h2{
 	transform-style: preserve-3d;
 	transform: perspective(800px);
 	transition: all 0.8s ease;
 }
-.courses h3{
+.employment h3{
 	transform-style: preserve-3d;
 	transform: perspective(800px);
 	transition: all 0.8s ease;
 }
-.courses ul{
+.employment ul{
 	transform-style: preserve-3d;
 	transform: perspective(800px);
 	transition: all 0.8s ease;
 }
-.courses ol{
+.employment ol{
 	transform-style: preserve-3d;
 	transform: perspective(800px);
 	transition: all 0.8s ease;
