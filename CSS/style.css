@@ -158,11 +158,13 @@ li a.navAddress:hover {
 
 /* Body
 ____________________________________ */
-.courses{
+.course{
+	padding-top: 80px;
 	text-align:center;
 	display: block;
 }
 .projects{
+	padding-top: 70px;
 	text-align:center;
 	display: block;	
 }
@@ -180,18 +182,22 @@ ____________________________________ */
 	margin-right: 10%;
 }
 .awards{
+	padding-top: 70px;
 	text-align:center;
 	display: block;
 }
 .skills{
+	padding-top: 70px;
 	text-align:center;
 	display: block;
 }
 .employment{
+	padding-top: 70px;
 	text-align:center;
 	display: block;
 }
 .activities{
+	padding-top: 70px;
 	text-align:center;
 	display: block;
 }

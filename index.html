@@ -29,9 +29,7 @@
 
   <!-- Scripts
   _________________________________________________ -->
-  <script src = js/scrollScript.js></script>
-  <script src ="jquery.min.js"></script>
-  <script src ="application.js"></script>
+  <script src ="https://code.jquery.com/jquery-1.10.2.js"></script>
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -51,7 +49,7 @@
 		<li class="barEl"><a class="navAddress" href="#home">Home</a></li>
 		<li class="barEl"><a href="#skills" class="navAddress">Skills</a></li>
 		<li class="barEl"><a href="#projects" class="navAddress">Projects</a></li>
-		<li class="barEl"><a href="javascript:window.scroll(0, 300);" class="navAddress">Courses</a></li>
+		<li class="barEl"><a href="#classes" class="navAddress">Courses</a></li>
 		<li class="barEl"><a href="#employment" class="navAddress">Employment Experience</a></li>
 		<li class="barEl"><a href="#awards" class="navAddress">Awards</a></li>
 		<li class="barEl"><a href="#activities" class="navAddress">Activities</a></li>
@@ -90,11 +88,12 @@
 
 <!-- Skills
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<section id="skills">
 <div class="skills orange">
 	<div class="container">
 		<div class="twelve columns">
 		<hr/>
-			<h2 id="skills">Skills</h2>
+			<h2>Skills</h2>
 			<hr/>
 			<h3>Languages</h3>
 			<ol>
@@ -130,10 +129,11 @@
 
 <!-- Projects
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<section id="projects">
 <div class="projects red">
     <div class="twelve columns">
         <div class="container">
-	<h2 id="projects">Projects</h2>
+	<h2>Projects</h2>
 	<hr/>
 	<div class="noDec">
 	<h3><a href="Content/Breakout" target="_blank">Breakout</a></h3>
@@ -185,23 +185,25 @@
 	<p>(Fall 2016)</p>
 	<figure><img class="size" src="Images/impulseMeter.jpg"><figcaption class="comp"><i>Our Impulse Meter</i></figcaption></figure>
 	<p>Collaborative project that involved planning using Mechanical Physics and Mathematics to find the simplest way to measure impulse (Change in momentum). Since we measured our
-	spring constant before construction, this is performed by using a slow motion camera and observing the distance of the compression of the spring when hit by an object. Next the time until max compression must also be observed. This allows for measuring of impulse with minimal knowledge of variables, including the neglection of mass. We checked our results using conservation of energy and kinematics to compare the theoretical change in momentum.
-	<br/> <br/>
-	Equations used: F = kx, J = F&Delta;t </p><br/>
+	spring constant before construction, this is performed by using a slow motion camera and observing the distance of the compression of the spring when hit by an object. Next the time until max compression must also be observed. This allows for measuring of impulse with minimal knowledge of variables, including the neglection of mass. We checked our results using conservation of energy and kinematics to compare the theoretical change in momentum.</p>
+	<br/> <section id="classes"><br/></section>
+	<p>Equations used: F = kx, J = F&Delta;t </p><br/>
   </div>
   <hr/>
   </div>
 	</div>
 </div>
 
+</section>
 
 <!-- Courses
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-<div class="courses green">
-	<div class="container">	
+<section>
+<div class="course green">
+	<div class="container">
 		<div class="twelve columns">
 		<div class="tableWidth">
-			<h2 id="courses">Courses</h2>
+			<h2>Courses</h2>
 			<hr/>
 			<table align="center">
 				<tr>
@@ -310,14 +312,16 @@
 		</div>
 	</div>
 </div>
+</section>
 
 
 <!-- Employment Experience
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<section id="employment">
 <div class="employment yellow">
 	<div class="container">	
 		<div class="twelve columns">		
-			<h2 id="employment">Employment Experience</h2>
+			<h2>Employment Experience</h2>
 			<hr/>
 			<h3>Outback Steakhouse</h3>
 			<p>Bozeman, MT (Aug 2015- March 2016)</p>
@@ -326,13 +330,15 @@
 		</div>
 	</div>
 </div>
+</section>
 
 <!-- Awards
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<section id="awards">
 <div class="awards purple">
 	<div class="container">	
 		<div class="twelve columns">		
-			<h2 id="awards">Awards</h2>
+			<h2>Awards</h2>
 			<hr/>
 			<h3>AP Scholar with Distinction</h3>
 			<p>(Received Spring 2016)</p>
@@ -359,13 +365,15 @@
 		</div>
 	</div>
 </div>
+</section>
 
 <!-- Activities
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<section id="activities">
 <div class="activities lightBlue">
 	<div class="container">	
 		<div class="twelve columns">		
-			<h2 id="activities">Activities</h2>
+			<h2>Activities</h2>
 			<hr/>
 
 			<h3>Ronald Reagan Highschool Major Fair Volunteer</h3>
@@ -389,11 +397,13 @@
 		</div>
 	</div>
 </div>
+</section>
 
 <!-- Footer
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<section id="contact">
 <footer>
-	<div class = "container" id="contact">
+	<div class = "container">
 		<div class="row twelve columns">
 		<hr/>
 			<p class="copyright">Contact/External Websites</p>
@@ -409,7 +419,9 @@
 		</div>
 	</div>
 </footer>
+</section>
 
+ <script src ="js/scrollScript.js"></script>
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
