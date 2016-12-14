@@ -109,6 +109,12 @@ li a.navAddress {
     text-decoration: none;
 }
 
+@media screen and (max-width: 780px) {
+   li a.navAddress{
+   	display: none;
+   }
+}
+
 /* Change the link color to #111 (black) on hover */
 li a.navAddress:hover {
     background-color: #111;
@@ -156,6 +162,11 @@ ____________________________________ */
 img.size {
     height: auto; 
     width: 40%; 
+}
+
+.tableWidth{
+	overflow: auto;
+	overflow-y: hidden;
 }
 
 /* Typography
