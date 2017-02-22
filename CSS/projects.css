@@ -123,3 +123,19 @@ figcaption.hidden5{
 	opacity: 0;
 	transform: translate3d(0, 0, 400px) rotateY(40deg);
 }
+p.hidden6{
+	opacity: 0;
+	transform: translate3d(0, 0, 400px) rotateY(40deg);
+}
+h3.hidden6{
+	opacity: 0;
+	transform: translate3d(0, 0, 400px) rotateY(40deg);
+}
+img.hidden6{
+	opacity: 0;
+	transform: translate3d(0, 0, 400px) rotateY(-40deg);
+}
+figcaption.hidden6{
+	opacity: 0;
+	transform: translate3d(0, 0, 400px) rotateY(40deg);
+}

@@ -9,6 +9,7 @@
                 	topper4 = $('h3.hidden3'),
                 	topper5 = $('h3.hidden4'),
                 	topper6 = $('h3.hidden5'),
+                    topper7 = $('h3.hidden6'),
                     aboutElOffset = topper.offset(),
                     aboutElOffset1 = topper1.offset(),
                     aboutElOffset2 = topper2.offset(),
@@ -16,6 +17,7 @@
                     aboutElOffset4 = topper4.offset(),
                     aboutElOffset5 = topper5.offset(),
                     aboutElOffset6 = topper6.offset(),
+                    aboutElOffset7 = topper7.offset(),
                     documentEl = $(document);
 
                 documentEl.on('scroll', function() {
@@ -26,6 +28,7 @@
                     if ( documentEl.scrollTop() > (aboutElOffset4.top-400) && aboutEl.hasClass('hidden3') ) aboutEl.removeClass('hidden3');
                     if ( documentEl.scrollTop() > (aboutElOffset5.top-400) && aboutEl.hasClass('hidden4') ) aboutEl.removeClass('hidden4');
                     if ( documentEl.scrollTop() > (aboutElOffset6.top-400) && aboutEl.hasClass('hidden5') ) aboutEl.removeClass('hidden5');
+                    if ( documentEl.scrollTop() > (aboutElOffset7.top-400) && aboutEl.hasClass('hidden6') ) aboutEl.removeClass('hidden6');
                 });
             })();
 
