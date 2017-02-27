@@ -111,6 +111,8 @@
                     aboutElOffset4 = topperAct4.offset(),
                     topperAct5 = $('h3.hiddenAct5'),
                     aboutElOffset5 = topperAct5.offset(),
+                    topperAct6 = $('h3.hiddenAct6'),
+                    aboutElOffset6 = topperAct6.offset(),
                     documentEl = $(document);
 
                 documentEl.on('scroll', function() {
@@ -119,5 +121,6 @@
                     if ( documentEl.scrollTop() > (aboutElOffset3.top-500) && aboutEl.hasClass('hiddenAct3') ) aboutEl.removeClass('hiddenAct3');
                     if ( documentEl.scrollTop() > (aboutElOffset4.top-500) && aboutEl.hasClass('hiddenAct4') ) aboutEl.removeClass('hiddenAct4');
                     if ( documentEl.scrollTop() > (aboutElOffset5.top-500) && aboutEl.hasClass('hiddenAct5') ) aboutEl.removeClass('hiddenAct5');
+                    if ( documentEl.scrollTop() > (aboutElOffset6.top-500) && aboutEl.hasClass('hiddenAct6') ) aboutEl.removeClass('hiddenAct6');
                 });
             })();

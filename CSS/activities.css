@@ -128,3 +128,24 @@ figcaption.hiddenAct5{
 	opacity: 0;
 	transform: translate3d(0, 0, 400px) rotateY(40deg);
 }
+
+h2.hiddenAct6{
+	opacity: 0;
+	transform: translate3d(0, 0, 400px) rotateY(-40deg);
+}
+p.hiddenAct6{
+	opacity: 0;
+	transform: translate3d(0, 0, 400px) rotateY(40deg);
+}
+h3.hiddenAct6{
+	opacity: 0;
+	transform: translate3d(0, 0, 400px) rotateY(40deg);
+}
+img.hiddenAct6{
+	opacity: 0;
+	transform: translate3d(0, 0, 400px) rotateY(40deg);
+}
+figcaption.hiddenAct6{
+	opacity: 0;
+	transform: translate3d(0, 0, 400px) rotateY(40deg);
+}
