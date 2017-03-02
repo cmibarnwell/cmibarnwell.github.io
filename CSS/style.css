@@ -108,8 +108,9 @@ header.main_nav{
 }
 
 .logoImg img{
+	margin: 5%;
 	height: auto;
-	width: 30%;
+	width: 60%;
 }
 
 .topCap{
