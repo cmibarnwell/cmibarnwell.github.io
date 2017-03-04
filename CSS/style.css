@@ -261,6 +261,9 @@ ul.social li a{
 	z-index: 1;
 	position: relative;
 }
+
+ul.social li.twitter a:hover{color: rgb(0,172,237);}
+ul.social li.instagram a:hover{color: rgb(251,173,80);}
 ul.social li.facebook a:hover{color: rgb(59,89,152);}
 ul.social li.github a:hover{color: rgb(0,0,0);}
 ul.social li.linkedin a:hover{color: rgb(0,123,182);}
